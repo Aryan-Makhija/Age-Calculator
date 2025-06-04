@@ -1,0 +1,78 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     box-sizing: border-box;
+ }
+
+ .Container {
+     background: linear-gradient(135deg, rgb(127, 7, 255), rgb(172, 214, 242));
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     justify-content: flex-start;
+     /* align-items: center; */
+     flex-direction: column;
+
+ }
+
+ .heading {
+     margin: 140px 150px 28px;
+     /* border: 2px solid red; */
+     width: 30vw;
+     height: 25vh;
+
+ }
+
+
+ h1 {
+     font-size: 60px;
+     padding: 10px;
+     color: white;
+     font-weight: bold;
+ }
+
+ .age-input {
+     width: 35vw;
+     height: 15vh;
+     /* border: 2px solid red; */
+     margin: 5px 150px 40px;
+     background-color: rgb(217, 192, 241);
+     border-radius: 10px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px;
+ }
+
+ input{
+    width: 20vw;
+    height: 6vh;
+     font-size: 25px;
+     cursor: pointer;
+ }
+ button{
+     width: 8vw;
+     height: 6vh;
+     font-size: 20px;
+     padding: 10px;
+     border-radius: 5px;
+     background-color: yellow;
+     border: none;
+     outline: none;
+     cursor: pointer;
+ }
+
+ #totalage{
+    width: 40vw;
+    height: 6vh;
+    /* border: 2px solid red; */
+    margin: 5px 150px 40px;
+     font-size: 30px;
+      color: white;
+      font-weight: bold;
+ }
+
+ #totalage span{
+    color: yellow;
+ }
